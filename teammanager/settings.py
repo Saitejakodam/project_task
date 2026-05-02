@@ -13,7 +13,7 @@ DEBUG = os.environ.get("DEBUG", "True") == "True"
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "web-production-ee17d.up.railway.app",
+    "projecttask-production-61d1.up.railway.app",
 ]
 
 # APPLICATIONS
@@ -112,7 +112,7 @@ LOGGING = {
 
 # CSRF (IMPORTANT for Railway)
 CSRF_TRUSTED_ORIGINS = [
-"https://web-production-ee17d.up.railway.app/",
+"https://projecttask-production-61d1.up.railway.app/",
 ]
 
 # Dev debugging tools
